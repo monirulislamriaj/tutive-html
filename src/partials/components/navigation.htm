@@ -1,0 +1,50 @@
+<!-- Mark up for Site Navigation Section-->
+<header class="header">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand">
+        <img src="images/logo.svg" alt="site-logo" />
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler collapsed"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarCollapse"
+      >
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link @@if(nav == 'about'){active}" href="about.html" >About</a>
+          </li>
+          <li class="nav-item">
+            <a href="solutions.html" class="nav-link @@if(nav == 'solutions'){active}">Solutions</a>
+          </li>
+          <li class="nav-item">
+            <a href="pricing.html" class="nav-link @@if(nav == 'pricing'){active}">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="resource.html" class="nav-link @@if(nav == 'resource'){active}">Resource</a>
+          </li>
+          <li class="nav-item">
+            <a href="integration.html" class="nav-link @@if(nav == 'integration'){active}">Integration</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link @@if(nav == 'contact'){active}">Contact</a>
+          </li>
+        </ul>
+        <div class="navbar-nav">
+          <a href="login.html" class="log_in mr-xl-5">Log In</a>
+          <a href="pricing.html" class="button-dark hire_button">Start 14 Days Trial</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
